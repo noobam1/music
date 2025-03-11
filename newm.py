@@ -4,11 +4,11 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
 # Replace with your Bot's token
-YOUR_BOT_TOKEN = 'YOUR_BOT_TOKEN'
+YOUR_BOT_TOKEN = '6824476193:AAE4KgvS24oCNCfChNvo90uRUgvH7wAQ6ZY'
 
 # Replace with your admin/supporter ID (the person who streams music)
-SUPPORTER_ID = 123456789  # Replace with the second user's Telegram ID
-ADMIN_ID = 987654321  # Replace with your admin ID (person who can send broadcast messages)
+SUPPORTER_ID = 5859478478  # Replace with the second user's Telegram ID
+ADMIN_ID = 708030615  # Replace with your admin ID (person who can send broadcast messages)
 
 # This will store the user IDs of everyone who interacts with the bot
 user_ids = set()  # A set is used to prevent duplicate entries
